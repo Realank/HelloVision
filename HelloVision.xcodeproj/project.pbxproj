@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CAD27501F00E7DA004408FB /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8CAD274F1F00E7C0004408FB /* MobileNet.mlmodel */; };
+		8CAD27531F00E9E2004408FB /* IMG_0101.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD27511F00E9E1004408FB /* IMG_0101.PNG */; };
+		8CAD27541F00E9E2004408FB /* IMG_0136.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8CAD27521F00E9E1004408FB /* IMG_0136.JPG */; };
 		B8597FB51EE94B7800B71E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8597FB41EE94B7800B71E00 /* AppDelegate.swift */; };
 		B8597FB71EE94B7800B71E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8597FB61EE94B7800B71E00 /* ViewController.swift */; };
 		B8597FBA1EE94B7800B71E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8597FB81EE94B7800B71E00 /* Main.storyboard */; };
 		B8597FBC1EE94B7800B71E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8597FBB1EE94B7800B71E00 /* Assets.xcassets */; };
 		B8597FBF1EE94B7800B71E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8597FBD1EE94B7800B71E00 /* LaunchScreen.storyboard */; };
-		B8597FC71EE9578E00B71E00 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B8597FC61EE9578E00B71E00 /* MobileNet.mlmodel */; };
 		B8597FDC1EE9639600B71E00 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8597FDB1EE9639000B71E00 /* image.jpg */; };
 		B8597FE01EE970F100B71E00 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8597FDF1EE970F100B71E00 /* FaceDetectionViewController.swift */; };
 		B8BC8B7D1EEA6A1A0029579B /* faces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BC8B7C1EEA6A120029579B /* faces.jpg */; };
@@ -26,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CAD274F1F00E7C0004408FB /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		8CAD27511F00E9E1004408FB /* IMG_0101.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_0101.PNG; path = ../../../../Downloads/IMG_0101.PNG; sourceTree = "<group>"; };
+		8CAD27521F00E9E1004408FB /* IMG_0136.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0136.JPG; path = ../../../../Downloads/IMG_0136.JPG; sourceTree = "<group>"; };
 		B8597FB11EE94B7800B71E00 /* HelloVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8597FB41EE94B7800B71E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8597FB61EE94B7800B71E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +38,6 @@
 		B8597FBB1EE94B7800B71E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8597FBE1EE94B7800B71E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8597FC01EE94B7800B71E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8597FC61EE9578E00B71E00 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = ../../../../Desktop/MobileNet.mlmodel; sourceTree = "<group>"; };
 		B8597FDB1EE9639000B71E00 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 		B8597FDF1EE970F100B71E00 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
 		B8BC8B7C1EEA6A120029579B /* faces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = faces.jpg; sourceTree = "<group>"; };
@@ -83,10 +87,12 @@
 				B8F62C5F1EEBEC21008BE757 /* BarcodesDetectViewController.swift */,
 				B8F62C631EECE672008BE757 /* TextDetectionViewController.swift */,
 				B8F62C6D1EEE6A55008BE757 /* ObjectTrackingViewController.swift */,
-				B8597FC61EE9578E00B71E00 /* MobileNet.mlmodel */,
+				8CAD27511F00E9E1004408FB /* IMG_0101.PNG */,
+				8CAD27521F00E9E1004408FB /* IMG_0136.JPG */,
 				B8597FDB1EE9639000B71E00 /* image.jpg */,
 				B8BC8B7C1EEA6A120029579B /* faces.jpg */,
 				B8F62C5D1EEBC693008BE757 /* face.jpg */,
+				8CAD274F1F00E7C0004408FB /* MobileNet.mlmodel */,
 				B8F62C611EEBEE74008BE757 /* QRCode.png */,
 				B8F62C6B1EECF0D2008BE757 /* text.jpg */,
 				B8597FB81EE94B7800B71E00 /* Main.storyboard */,
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8F62C6C1EECF0DA008BE757 /* text.jpg in Resources */,
+				8CAD27531F00E9E2004408FB /* IMG_0101.PNG in Resources */,
 				B8F62C621EEBEE7E008BE757 /* QRCode.png in Resources */,
+				8CAD27541F00E9E2004408FB /* IMG_0136.JPG in Resources */,
 				B8F62C5E1EEBC69E008BE757 /* face.jpg in Resources */,
 				B8BC8B7D1EEA6A1A0029579B /* faces.jpg in Resources */,
 				B8597FDC1EE9639600B71E00 /* image.jpg in Resources */,
@@ -174,11 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CAD27501F00E7DA004408FB /* MobileNet.mlmodel in Sources */,
 				B8F62C601EEBEC21008BE757 /* BarcodesDetectViewController.swift in Sources */,
 				B8597FB71EE94B7800B71E00 /* ViewController.swift in Sources */,
 				B8597FB51EE94B7800B71E00 /* AppDelegate.swift in Sources */,
 				B8BC8B831EEA8AAD0029579B /* FaceLandMarksViewController.swift in Sources */,
-				B8597FC71EE9578E00B71E00 /* MobileNet.mlmodel in Sources */,
 				B8597FE01EE970F100B71E00 /* FaceDetectionViewController.swift in Sources */,
 				B8F62C6E1EEE6A55008BE757 /* ObjectTrackingViewController.swift in Sources */,
 				B8F62C641EECE672008BE757 /* TextDetectionViewController.swift in Sources */,
@@ -316,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K8UAH3FUM;
+				DEVELOPMENT_TEAM = 275X96KVEB;
 				INFOPLIST_FILE = HelloVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.pengguo.HelloVision;
@@ -334,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5K8UAH3FUM;
+				DEVELOPMENT_TEAM = 275X96KVEB;
 				INFOPLIST_FILE = HelloVision/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.pengguo.HelloVision;

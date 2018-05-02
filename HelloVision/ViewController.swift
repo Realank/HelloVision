@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var result: UILabel!
     
     let model = MobileNet()
-    let image = UIImage(named: "image.jpg")!
+    let image = UIImage(named: "IMG_0136.JPG")!
     
     override func viewDidLoad() {
         super.viewDidLoad()
